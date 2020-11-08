@@ -1,0 +1,34 @@
+public class NilaiMatkul {
+    private String nim;
+    private String nama;
+    private double nilai;
+    
+    NilaiMatkul(){
+
+    }
+    
+    void setNIM(String nim){
+        this.nim = nim;
+        
+    }
+    
+    String getNIM(){
+        return nim;
+    }
+    
+    void setNAMA(String nama){
+        this.nama =nama;
+    
+    }
+     
+    String getNAMA(){
+        return nama;
+    }
+    
+    void setNILAI(double nilai){
+        this.nilai = nilai;
+    }
+        double getNILAI(){
+        return nilai;
+        }
+}
