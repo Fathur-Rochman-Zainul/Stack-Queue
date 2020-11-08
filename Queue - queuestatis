@@ -1,0 +1,22 @@
+public class QueueStatis {
+    public static void main(String[] args){
+        Queue Q = new Queue();
+        Q.createEmpty();
+        Q.printQueue();
+        
+        System.out.println("=======================================");
+
+        Q.add("E31200782", "Rizma Nur Fazrien", 90.25);
+        Q.add("E41200058", "Nunur Syamsiah", 99.99);
+        Q.add("E31201887", "Fathur Rochman Zainul", 98.50);
+        
+        Q.printQueue();
+        System.out.println("=======================================");
+        
+        Q.del();
+        Q.del();
+        Q.printQueue();
+
+        System.out.println("=======================================");
+    }
+}
