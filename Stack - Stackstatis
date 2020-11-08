@@ -1,0 +1,26 @@
+public class StackStatis {
+    public static void main(String[] args){
+        
+        Stack S = new Stack();
+        S.createEmpty();
+        S.printStack();
+        
+        System.out.println("=======================================");
+
+        S.push("E31202345", "Fathur Rochman Zainul", 98.00);
+        S.push("E31202346", "Rizma Nur Fazrien", 85.00);
+        S.push("E31202347", "Nunur Syamsiah", 80.00);
+        
+        S.printStack();
+
+        System.out.println("=======================================");
+      
+        S.pop();
+        S.pop();
+        S.printStack();
+
+        System.out.println("=======================================");
+
+    }
+
+}
